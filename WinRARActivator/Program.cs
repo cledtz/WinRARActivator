@@ -2,17 +2,29 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using Microsoft.Win32;
 
 namespace WinRARActivator
 {
     internal class Program
     {
+        [DllImport("kernel32.dll")]
+        static extern IntPtr GetConsoleWindow();
+
+        [DllImport("user32.dll")]
+        static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
+
+        const int SW_HIDE = 0;
+        const int SW_SHOW = 5;
         static void Main(string[] args)
         {
+            ShowWindow(GetConsoleWindow(), SW_HIDE);
+
             Console.Title = "WinRARActivator";
 
             string WinRARPath_cached = string.Empty;
@@ -61,13 +73,17 @@ namespace WinRARActivator
             {
                 Console.WriteLine("[SUCCESS] WinRAR license has been installed.");
                 Console.WriteLine("          You may now close this window.");
+
+                MessageBox.Show("Activation complete.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
                 Console.WriteLine("[FAILURE] WinRAR license has not been installed.");
+
+                MessageBox.Show("Activation failed.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
-            Thread.Sleep(-1);      
+            Environment.Exit(0);
         }
     }
 }
