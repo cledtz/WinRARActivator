@@ -6,3 +6,11 @@ C:\Users\bytepatch\Documents\Programming\GitHub\WinRARActivator\WinRARActivator\
 C:\Users\bytepatch\Documents\Programming\GitHub\WinRARActivator\WinRARActivator\obj\Debug\WinRARActivator.csproj.CoreCompileInputs.cache
 C:\Users\bytepatch\Documents\Programming\GitHub\WinRARActivator\WinRARActivator\obj\Debug\WinRARActivator.exe
 C:\Users\bytepatch\Documents\Programming\GitHub\WinRARActivator\WinRARActivator\obj\Debug\WinRARActivator.pdb
+C:\Users\kernel\Documents\Programming\GitHub\WinRARActivator\WinRARActivator\bin\Debug\WinRARActivator.exe.config
+C:\Users\kernel\Documents\Programming\GitHub\WinRARActivator\WinRARActivator\bin\Debug\WinRARActivator.exe
+C:\Users\kernel\Documents\Programming\GitHub\WinRARActivator\WinRARActivator\bin\Debug\WinRARActivator.pdb
+C:\Users\kernel\Documents\Programming\GitHub\WinRARActivator\WinRARActivator\obj\Debug\WinRARActivator.csproj.AssemblyReference.cache
+C:\Users\kernel\Documents\Programming\GitHub\WinRARActivator\WinRARActivator\obj\Debug\WinRARActivator.csproj.SuggestedBindingRedirects.cache
+C:\Users\kernel\Documents\Programming\GitHub\WinRARActivator\WinRARActivator\obj\Debug\WinRARActivator.csproj.CoreCompileInputs.cache
+C:\Users\kernel\Documents\Programming\GitHub\WinRARActivator\WinRARActivator\obj\Debug\WinRARActivator.exe
+C:\Users\kernel\Documents\Programming\GitHub\WinRARActivator\WinRARActivator\obj\Debug\WinRARActivator.pdb
