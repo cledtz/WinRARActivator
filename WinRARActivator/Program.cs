@@ -25,7 +25,7 @@ namespace WinRARActivator
         {
             //ShowWindow(GetConsoleWindow(), SW_HIDE);
 
-            Console.Title = "WinRARActivator";
+            Console.Title = "WinRARActivator - Open source at: https://github.com/cledtz/WinRARActivator";
 
             if (MessageBox.Show("Activate?\n\nYes - activate\nNo - abort & close", "Selection", MessageBoxButtons.YesNo) == DialogResult.No)
                 Environment.Exit(0);
